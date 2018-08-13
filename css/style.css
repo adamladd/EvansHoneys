@@ -1,0 +1,101 @@
+html {
+    background-color: black;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #F9AA43;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: #DFDA1E;
+}
+
+a:hover {
+    font-display: bold;
+    text-decoration: bold;
+    color: #FFFA9C;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+header {
+    padding: 10px;
+}
+
+#homeHeader {
+    text-align: center;
+}
+
+footer {
+    background-color: #7CA8D7;
+    padding: 10px;
+}
+
+nav {
+    background-color: #CD8646;
+    padding: 10px;
+}
+
+article {
+    background-image: url(../assets/DSC00033-corr.jpg);
+    background-size: cover;
+    background-position: static;
+    min-height: 200px;
+    padding: 10px;
+}
+
+section {
+    background-color: rgba(124, 168, 215, 0.719);
+    padding: 10px;
+    margin: 10px 50px 10px 50px;
+    overflow: auto;
+}
+
+section > img {
+    max-width: 25%;
+    float: left;
+    padding: 10px;
+}
+
+#navList {
+    font-size: 1.5em;
+    display: inline-flex;
+}
+
+nav > ul > li > a {
+    font-size: 1.5em;
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+#navImg {
+    width: 200px;
+    height: 200px;
+}
+
+#splashPic {
+    display: block;
+    opacity: 0.75;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 80%;
+}
