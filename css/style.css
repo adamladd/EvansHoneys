@@ -57,7 +57,9 @@ nav {
 article {
     background-image: url(../assets/DSC00033-corr.jpg);
     background-size: cover;
-    background-position: static;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     min-height: 200px;
     padding: 10px;
 }
